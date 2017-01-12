@@ -1,0 +1,32 @@
+{
+  "name": "ty-gag-input",
+  "version": "1.0.1",
+  "description": "This is a flexible input-component,you can get a custom UI with the props config",
+  "main": "lib/gooagooInput/GooagooInput.jsx",
+  "dependencies": {
+    "react": "15.3.x",
+    "react-avatar-editor": "^7.0.0",
+    "react-dom": "15.3.x"
+  },
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boxfish-ty/goago-input.git"
+  },
+  "keywords": [
+    "gag-input",
+    "tianyang",
+    "ty"
+  ],
+  "author": "Ocean",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boxfish-ty/goago-input/issues"
+  },
+  "homepage": "https://github.com/boxfish-ty/goago-input#readme"
+}

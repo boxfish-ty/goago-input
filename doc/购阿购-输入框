@@ -1,0 +1,20 @@
+配置props：
+
+required：是否必填（*） boolean
+
+label：左侧标签
+
+placeholder：同placeholder使用
+maxLength: string  '10'最大字符限制
+noBottomBorder:是否有底边框  boolean  设置true为无底边框
+
+value：初始值
+type：文本框类型，默认'text'
+
+onChange：function(value,label)   返回'value'当前输入框value   'label'当前输入框label
+
+rightText：右侧文字   "图片和文字不要同时使用"
+imgUrl:右侧图片url  'required'图片资源赋值即可
+imgClick：function   右侧 图片|文字 点击事件
+
+其他js事件照常配置即可

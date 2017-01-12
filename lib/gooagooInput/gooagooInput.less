@@ -1,0 +1,57 @@
+.gooagoo-input{
+  font-family:HiraginoSansGB;
+  font-size:15px;
+  color:#333333;
+  border-left : 10px solid #ffffff;
+  border-bottom:1px solid #eeeeee;
+  height: 44px;
+  line-height: 20px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  clear: both;
+
+  label{
+    min-width: 82px;
+    height: 20px;
+    text-align: justify;
+    span:last-child{
+      display:inline-block;
+      width:100%;
+    }
+    //必填样式
+    .required{
+      display: inline-block;
+      width: 6px;
+      color: #ff8821;
+    }
+  }
+
+  #goagoInput{
+    flex: 1;
+    border: none;
+  }
+
+  ::-webkit-input-placeholder {
+    color: #999999;
+  }
+  :-moz-placeholder {
+    color: #999999;
+  }
+  ::-moz-placeholder {
+    color: #999999;
+  }
+
+  .rightImg{
+    float: right;
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+    background-size:cover;
+    background-repeat: no-repeat;
+  }
+}
+//无底边框
+.gooagoo-input-noBorder{
+  border-bottom:none;
+}
